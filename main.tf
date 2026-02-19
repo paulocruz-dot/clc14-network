@@ -1,5 +1,5 @@
 variable "vpc_name" {
-  type    = string
+  type = string
 }
 
 resource "aws_vpc" "minha_vpc" {
